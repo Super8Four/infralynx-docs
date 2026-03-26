@@ -42,6 +42,7 @@ nav:
       - Overview: product/overview.md
   - Engineering:
       - Architecture: engineering/architecture.md
+      - Platform Repository: engineering/platform-repository.md
   - Operations:
       - Deployment: operations/deployment.md
   - API:
@@ -53,6 +54,7 @@ nav:
       - ADR Template: adr/adr-template.md
       - ADR-0003 Documentation Foundation: adr/ADR-0003-documentation-foundation.md
       - ADR-0004 Design System Standardization: adr/ADR-0004-design-system-standardization.md
+      - ADR-0005 Platform Monorepo Foundation: adr/ADR-0005-platform-monorepo-foundation.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

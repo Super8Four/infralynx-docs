@@ -1,0 +1,29 @@
+# Platform Repository Structure
+
+The `infralynx-platform` repository is a buildable monorepo foundation designed to keep runtime concerns, shared packages, migrations, and deployment-facing assets separated from the start.
+
+## Structure Overview
+
+- `apps/web` for the user-facing application shell
+- `apps/api` for API delivery and request orchestration
+- `apps/worker` for asynchronous processing and integrations
+- `packages/config` for shared configuration metadata and helpers
+- `packages/domain-core` for core platform boundaries and domain contracts
+- `packages/shared` for reusable utilities with low coupling
+- `tests` for shared testing structure
+- `migrations` for engine-specific migration organization
+- `deploy` for application deployment-facing assets
+
+## Naming Conventions
+
+- apps are named by runtime role
+- packages use singular, purpose-specific names
+- directories should describe ownership, not implementation detail
+- shared packages must remain intentionally small to avoid accidental coupling
+
+## Boundary Rules
+
+- `apps/*` consume packages and compose runtime behavior
+- `packages/domain-core` defines platform-level boundaries and contracts
+- `packages/shared` must not become an unreviewed dumping ground
+- database-engine specifics belong under `migrations/*`, not mixed into app code

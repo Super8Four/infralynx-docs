@@ -19,6 +19,16 @@ Engineering documentation must answer four questions clearly:
 - `infralynx-standards` owns governance, templates, and collaboration policy.
 - `infralynx-design` owns design system, flows, and visual standards.
 
+## Platform Architecture Overview
+
+The platform repository begins as a monorepo with explicit runtime separation:
+
+- `apps/web`
+- `apps/api`
+- `apps/worker`
+
+Shared packages are limited to configuration, core domain contracts, and low-coupling utilities so teams can scale without collapsing boundaries between runtimes.
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

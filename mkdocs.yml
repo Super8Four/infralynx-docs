@@ -45,6 +45,7 @@ nav:
       - Platform Repository: engineering/platform-repository.md
   - Operations:
       - Deployment: operations/deployment.md
+      - CI/CD: operations/ci-cd.md
   - API:
       - Overview: api/overview.md
   - Releases:
@@ -55,6 +56,7 @@ nav:
       - ADR-0003 Documentation Foundation: adr/ADR-0003-documentation-foundation.md
       - ADR-0004 Design System Standardization: adr/ADR-0004-design-system-standardization.md
       - ADR-0005 Platform Monorepo Foundation: adr/ADR-0005-platform-monorepo-foundation.md
+      - ADR-0006 CI Baseline: adr/ADR-0006-ci-baseline.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

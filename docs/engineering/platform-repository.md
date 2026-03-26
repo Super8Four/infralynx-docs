@@ -31,5 +31,6 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/core-domain`, `packages/auth`, and `packages/audit` define reusable platform service contracts
 - `packages/ipam-domain` defines VRF, prefix, IP address, VLAN, and allocation contracts
 - `packages/dcim-domain` defines site, rack, device, interface, power, and cable contracts
+- `packages/ui` defines shell navigation, tokens, and shared UI contracts
 - `packages/shared` must not become an unreviewed dumping ground
 - database-engine specifics belong under `migrations/*`, not mixed into app code

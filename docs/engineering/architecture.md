@@ -37,6 +37,7 @@ The foundational platform packages now also include:
 - `@infralynx/ipam-domain`
 - `@infralynx/dcim-domain`
 - `@infralynx/ui`
+- `@infralynx/network-domain`
 
 ## Database Compatibility Direction
 

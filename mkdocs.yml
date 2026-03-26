@@ -50,6 +50,9 @@ nav:
       - IPAM Data Model: engineering/ipam-data-model.md
       - IPAM Validation Rules: engineering/ipam-validation.md
       - IPAM Allocation Logic: engineering/ipam-allocation.md
+      - DCIM Data Model: engineering/dcim-data-model.md
+      - DCIM Physical Relationships: engineering/dcim-physical-relationships.md
+      - Rack Modeling: engineering/rack-modeling.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -68,6 +71,7 @@ nav:
       - ADR-0007 Database Abstraction Design: adr/ADR-0007-database-abstraction-design.md
       - ADR-0008 Core Domain Skeleton: adr/ADR-0008-core-domain-skeleton.md
       - ADR-0009 IPAM Domain Design: adr/ADR-0009-ipam-domain-design.md
+      - ADR-0010 DCIM Domain Design: adr/ADR-0010-dcim-domain-design.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

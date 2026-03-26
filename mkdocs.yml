@@ -53,6 +53,7 @@ nav:
       - DCIM Data Model: engineering/dcim-data-model.md
       - DCIM Physical Relationships: engineering/dcim-physical-relationships.md
       - Rack Modeling: engineering/rack-modeling.md
+      - UI Architecture: engineering/ui-architecture.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -72,7 +73,9 @@ nav:
       - ADR-0008 Core Domain Skeleton: adr/ADR-0008-core-domain-skeleton.md
       - ADR-0009 IPAM Domain Design: adr/ADR-0009-ipam-domain-design.md
       - ADR-0010 DCIM Domain Design: adr/ADR-0010-dcim-domain-design.md
+      - ADR-0011 UI Shell Architecture: adr/ADR-0011-ui-shell-architecture.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md
+      - UI Shell Guidelines: design/ui-shell-guidelines.md
   - Contributing: contributing.md

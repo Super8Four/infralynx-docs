@@ -44,6 +44,9 @@ nav:
       - Architecture: engineering/architecture.md
       - Platform Repository: engineering/platform-repository.md
       - Database Abstraction: engineering/database-abstraction.md
+      - Core Domain Architecture: engineering/core-domain-architecture.md
+      - Authentication Model: engineering/auth-model.md
+      - RBAC Model: engineering/rbac-model.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -60,6 +63,7 @@ nav:
       - ADR-0005 Platform Monorepo Foundation: adr/ADR-0005-platform-monorepo-foundation.md
       - ADR-0006 CI Baseline: adr/ADR-0006-ci-baseline.md
       - ADR-0007 Database Abstraction Design: adr/ADR-0007-database-abstraction-design.md
+      - ADR-0008 Core Domain Skeleton: adr/ADR-0008-core-domain-skeleton.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

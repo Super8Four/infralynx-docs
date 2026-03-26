@@ -8,6 +8,9 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `apps/api` for API delivery and request orchestration
 - `apps/worker` for asynchronous processing and integrations
 - `packages/config` for shared configuration metadata and helpers
+- `packages/core-domain` for base entities, statuses, permissions, and roles
+- `packages/auth` for identity, session, and authorization scaffolds
+- `packages/audit` for audit record contracts
 - `packages/domain-core` for core platform boundaries and domain contracts
 - `packages/shared` for reusable utilities with low coupling
 - `tests` for shared testing structure
@@ -25,5 +28,6 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 
 - `apps/*` consume packages and compose runtime behavior
 - `packages/domain-core` defines platform-level boundaries and contracts
+- `packages/core-domain`, `packages/auth`, and `packages/audit` define reusable platform service contracts
 - `packages/shared` must not become an unreviewed dumping ground
 - database-engine specifics belong under `migrations/*`, not mixed into app code

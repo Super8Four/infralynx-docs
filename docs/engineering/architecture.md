@@ -29,6 +29,12 @@ The platform repository begins as a monorepo with explicit runtime separation:
 
 Shared packages are limited to configuration, core domain contracts, and low-coupling utilities so teams can scale without collapsing boundaries between runtimes.
 
+The foundational platform packages now also include:
+
+- `@infralynx/core-domain`
+- `@infralynx/auth`
+- `@infralynx/audit`
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

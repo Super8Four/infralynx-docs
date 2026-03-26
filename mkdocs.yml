@@ -52,6 +52,7 @@ nav:
       - Overview: adr/index.md
       - ADR Template: adr/adr-template.md
       - ADR-0003 Documentation Foundation: adr/ADR-0003-documentation-foundation.md
+      - ADR-0004 Design System Standardization: adr/ADR-0004-design-system-standardization.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

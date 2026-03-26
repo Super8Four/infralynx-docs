@@ -1,0 +1,58 @@
+site_name: InfraLynx Documentation
+site_description: Enterprise documentation for the InfraLynx infrastructure platform.
+site_url: https://super8four.github.io/infralynx-docs/
+repo_name: Super8Four/infralynx-docs
+repo_url: https://github.com/Super8Four/infralynx-docs
+edit_uri: ""
+
+theme:
+  name: material
+  logo: null
+  favicon: null
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to InfraLynx dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.action.edit
+
+extra_css:
+  - stylesheets/branding.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Product:
+      - Overview: product/overview.md
+  - Engineering:
+      - Architecture: engineering/architecture.md
+  - Operations:
+      - Deployment: operations/deployment.md
+  - API:
+      - Overview: api/overview.md
+  - Releases:
+      - Release Notes: releases/index.md
+  - ADR:
+      - Overview: adr/index.md
+      - ADR Template: adr/adr-template.md
+      - ADR-0003 Documentation Foundation: adr/ADR-0003-documentation-foundation.md
+  - Design:
+      - Branding: design/branding.md
+      - UX Principles: design/ux-principles.md
+  - Contributing: contributing.md

@@ -39,6 +39,11 @@ The foundational platform packages now also include:
 - `@infralynx/ui`
 - `@infralynx/network-domain`
 
+The networking package is now split into two distinct concerns:
+
+- cross-domain binding contracts
+- deterministic topology and path-tracing helpers
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

@@ -31,3 +31,7 @@ Later chunks will extend CI into:
 - multi-database testing
 - container validation
 - staged delivery workflows
+
+## Database Validation Direction
+
+Chunk 6 adds a dedicated database-engine validation workflow that checks the abstraction package and migration directory matrix for PostgreSQL, Microsoft SQL Server, and MariaDB. Full engine execution tests are deferred until the runtime data-access layer exists.

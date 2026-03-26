@@ -37,7 +37,17 @@ InfraLynx must support:
 - Microsoft SQL Server
 - MariaDB
 
-Engineering documentation must make compatibility assumptions explicit and avoid undocumented vendor-specific behavior. The database abstraction layer, migration model, and CI matrix will each receive ADR-backed documentation as those chunks are implemented.
+Engineering documentation must make compatibility assumptions explicit and avoid undocumented vendor-specific behavior.
+
+## Database Abstraction Baseline
+
+The database layer is designed around three rules:
+
+1. PostgreSQL is the reference engine for behavior and migration intent.
+2. Compatibility must be expressed through explicit engine capabilities rather than assumption.
+3. Migration versions stay aligned across engines even when SQL implementations differ.
+
+Detailed guidance for the abstraction package, engine matrix, and migration rules is documented in the database abstraction design pages and ADRs.
 
 ## ADR Relationship
 

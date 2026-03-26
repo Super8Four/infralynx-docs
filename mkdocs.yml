@@ -43,9 +43,11 @@ nav:
   - Engineering:
       - Architecture: engineering/architecture.md
       - Platform Repository: engineering/platform-repository.md
+      - Database Abstraction: engineering/database-abstraction.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
+      - Database Testing: operations/database-testing.md
   - API:
       - Overview: api/overview.md
   - Releases:
@@ -57,6 +59,7 @@ nav:
       - ADR-0004 Design System Standardization: adr/ADR-0004-design-system-standardization.md
       - ADR-0005 Platform Monorepo Foundation: adr/ADR-0005-platform-monorepo-foundation.md
       - ADR-0006 CI Baseline: adr/ADR-0006-ci-baseline.md
+      - ADR-0007 Database Abstraction Design: adr/ADR-0007-database-abstraction-design.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

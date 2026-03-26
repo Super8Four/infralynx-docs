@@ -34,6 +34,7 @@ The foundational platform packages now also include:
 - `@infralynx/core-domain`
 - `@infralynx/auth`
 - `@infralynx/audit`
+- `@infralynx/ipam-domain`
 
 ## Database Compatibility Direction
 

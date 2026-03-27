@@ -102,6 +102,17 @@ The core platform now also includes a standalone scheduler:
 - worker-side trigger evaluation that enqueues normal jobs
 - centralized schedule state that survives process restarts
 
+The infrastructure layer is now standardized around wrapped third-party libraries:
+
+- `openid-client`, `ldapjs`, `@node-saml/node-saml`, and `bcrypt` for authentication concerns
+- `bullmq` for background queue execution
+- `node-cron` for recurring triggers
+- `axios` for outbound webhook delivery
+- `multer` for upload parsing
+- `reactflow` for topology graph rendering
+
+These libraries are used behind InfraLynx-owned abstractions so domain packages and UI contracts do not depend directly on vendor-specific APIs.
+
 The core platform now also includes a standalone transfer service:
 
 - format and schema validation in `@infralynx/data-transfer`

@@ -8,7 +8,7 @@ InfraLynx uses Semantic Versioning for all public releases:
 
 ## Current Baseline
 
-The current baseline is `v0.2.0-alpha`.
+The current baseline is `v0.3.0-alpha`.
 
 ## Pre-release Tags
 
@@ -20,8 +20,8 @@ The current baseline is `v0.2.0-alpha`.
 
 InfraLynx may append optional internal metadata for progress tracking, for example:
 
-- `v0.2.0-alpha+chunk23`
-- `v0.2.0-alpha+chunk23.5`
+- `v0.3.0-alpha+chunk22.5`
+- `v0.3.0-alpha+chunk23`
 
 This metadata does not change version precedence. It is used for internal build identification, chunk tracking, and release coordination.
 

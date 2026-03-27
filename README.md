@@ -2,7 +2,7 @@
 
 [![Docs Build](https://github.com/Super8Four/infralynx-docs/actions/workflows/docs-build.yml/badge.svg?style=flat-square)](https://github.com/Super8Four/infralynx-docs/actions/workflows/docs-build.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.1.0--alpha-E6E1D9?style=flat-square&labelColor=2A3F5F)](VERSION)
+[![Version](https://img.shields.io/badge/version-v0.3.0--alpha-E6E1D9?style=flat-square&labelColor=2A3F5F)](VERSION)
 [![MkDocs](https://img.shields.io/badge/MkDocs-Material-526CFE?style=flat-square&logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 [![Site](https://img.shields.io/badge/site-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)](https://super8four.github.io/infralynx-docs/)
 
@@ -22,7 +22,7 @@ InfraLynx documentation is version-aware and organized by audience and operating
 
 ## Versioning
 
-This repository follows Semantic Versioning and currently tracks [v0.1.0-alpha](VERSION). Internal progress metadata such as `v0.1.0-alpha+chunk21` may be used in release notes and internal coordination without changing version precedence.
+This repository follows Semantic Versioning and currently tracks [v0.3.0-alpha](VERSION). Internal progress metadata such as `v0.3.0-alpha+chunk22.5` may be used in release notes and internal coordination without changing version precedence.
 
 ## License
 

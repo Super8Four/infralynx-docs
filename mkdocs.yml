@@ -49,6 +49,9 @@ nav:
       - Core Domain Architecture: engineering/core-domain-architecture.md
       - Authentication Model: engineering/auth-model.md
       - Authentication Architecture: engineering/authentication-architecture.md
+      - External Library Usage Policy: engineering/external-library-usage-policy.md
+      - Service Abstraction Design: engineering/service-abstraction-design.md
+      - Dependency Documentation: engineering/dependency-documentation.md
       - Provider Configuration Guide: engineering/provider-configuration-guide.md
       - RBAC Model: engineering/rbac-model.md
       - IPAM Data Model: engineering/ipam-data-model.md
@@ -150,6 +153,7 @@ nav:
       - ADR-0024 Webhooks Integration Events: adr/ADR-0024-webhooks-integration-events.md
       - ADR-0025 Scheduled Task System: adr/ADR-0025-scheduled-task-system.md
       - ADR-0026 Authentication System Multi Provider: adr/ADR-0026-authentication-system-multi-provider.md
+      - ADR-0027 Platform Standardization Library Alignment: adr/ADR-0027-platform-standardization-library-alignment.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

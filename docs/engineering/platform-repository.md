@@ -11,6 +11,8 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/core-domain` for base entities, statuses, permissions, and roles
 - `packages/auth` for identity, session, and authorization scaffolds
 - `packages/audit` for audit record contracts
+- `packages/media-core` for media metadata, validation, linking, and access-control helpers
+- `packages/media-storage` for filesystem and future cloud-backed object storage adapters
 - `packages/domain-core` for core platform boundaries and domain contracts
 - `packages/shared` for reusable utilities with low coupling
 - `tests` for shared testing structure
@@ -29,6 +31,8 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `apps/*` consume packages and compose runtime behavior
 - `packages/domain-core` defines platform-level boundaries and contracts
 - `packages/core-domain`, `packages/auth`, and `packages/audit` define reusable platform service contracts
+- `packages/media-core` defines media metadata, linking, and tenant-aware access contracts
+- `packages/media-storage` defines object storage adapters and must not own metadata policy
 - `packages/ipam-domain` defines VRF, prefix, IP address, VLAN, and allocation contracts
 - `packages/dcim-domain` defines site, rack, device, interface, power, and cable contracts
 - `packages/network-domain` defines cross-domain bindings, topology edges, and path-tracing helpers
@@ -94,3 +98,13 @@ Navigation is split across three ownership areas:
 - `apps/web/src/components/navigation` for sidebar, breadcrumb, and context navigation rendering
 
 This keeps navigation rules centralized and prevents individual pages from inventing inconsistent hierarchy behavior.
+
+## Media Service Layer
+
+Media handling is split across three ownership areas:
+
+- `packages/media-core` for metadata, links, validation, and RBAC-aware access checks
+- `packages/media-storage` for storage adapters
+- `apps/api/src/media` for HTTP upload and retrieval endpoints
+
+This keeps file handling independent from UI code and prevents domain models from owning file storage concerns.

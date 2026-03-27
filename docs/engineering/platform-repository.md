@@ -121,3 +121,13 @@ Background work is split across four ownership areas:
 - `apps/worker/src/jobs` for asynchronous processing and handler execution
 
 This keeps asynchronous execution separate from request handling and prevents domain packages from owning queue infrastructure.
+
+## Import And Export Layer
+
+Transfer behavior is split across three ownership areas:
+
+- `packages/data-transfer` for schema rules, parsing, validation, and file-backed transfer state
+- `apps/api/src/import` for validation, commit, and async-import endpoints
+- `apps/api/src/export` for format-aware export endpoints
+
+This keeps transport formats consistent across domains and prevents ad hoc import logic from leaking into runtime services.

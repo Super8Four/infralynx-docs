@@ -95,6 +95,12 @@ The core platform now also includes a standalone job engine:
 - job creation and status endpoints in `apps/api`
 - asynchronous execution in `apps/worker`
 
+The core platform now also includes a standalone transfer service:
+
+- format and schema validation in `@infralynx/data-transfer`
+- import and export endpoints in `apps/api`
+- job-engine-backed asynchronous import for larger payloads
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

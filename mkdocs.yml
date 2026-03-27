@@ -82,16 +82,21 @@ nav:
       - Job System Architecture: engineering/job-system-architecture.md
       - Job Lifecycle Model: engineering/job-lifecycle-model.md
       - Worker Model Design: engineering/worker-model-design.md
+      - Import and Export Formats: engineering/import-export-formats.md
+      - Import and Export Validation: engineering/import-export-validation.md
+      - Data Mapping Guidelines: engineering/data-mapping-guidelines.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
       - Database Testing: operations/database-testing.md
       - Media Storage Strategy: operations/media-storage-strategy.md
       - Job Retry and Failure Rules: operations/job-retry-failure-rules.md
+      - Import and Export Error Handling: operations/import-export-error-handling.md
   - API:
       - Overview: api/overview.md
       - Media API: api/media.md
       - Jobs API: api/jobs.md
+      - Import and Export API: api/import-export.md
   - Releases:
       - Release Notes: releases/index.md
   - ADR:
@@ -116,6 +121,7 @@ nav:
       - ADR-0019 Global Navigation Refinement: adr/ADR-0019-global-navigation-refinement.md
       - ADR-0020 Media Asset Management Core Service: adr/ADR-0020-media-asset-management-core-service.md
       - ADR-0021 Job Engine Background Task System: adr/ADR-0021-job-engine-background-task-system.md
+      - ADR-0022 Import Export Framework: adr/ADR-0022-import-export-framework.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

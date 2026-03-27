@@ -50,6 +50,12 @@ The web application now adds a separate UI data integration layer:
 - hook-based fetch orchestration
 - reducer-backed UI state transitions
 
+The UI layer now also includes a dedicated rack visualization system:
+
+- shared rack geometry helpers in `@infralynx/ui`
+- API-driven rack payloads
+- interactive device and port selection in the web shell
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

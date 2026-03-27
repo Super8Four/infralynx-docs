@@ -14,7 +14,7 @@ API documentation should be organized by:
 
 ## Current Status
 
-The API surface now includes baseline read endpoints for shell-facing data and a standalone media API for upload and retrieval. Documentation is still growing by subsystem, but the framework is now paired with active contracts.
+The API surface now includes baseline read endpoints for shell-facing data, a standalone media API for upload and retrieval, and a jobs API for asynchronous background execution. Documentation is still growing by subsystem, but the framework is now paired with active contracts.
 
 ## Documentation Rules
 

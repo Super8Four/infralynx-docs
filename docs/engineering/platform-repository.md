@@ -45,3 +45,12 @@ The web application uses a three-part data integration boundary:
 - `apps/web/src/state` for reducer-backed UI state
 
 This keeps frontend rendering decoupled from raw API payload structure.
+
+## Rack Visualization Layer
+
+Rack visualization is split across two ownership areas:
+
+- `packages/ui/src/rack-system` for rack geometry, unit-slot generation, and selection helpers
+- `apps/web/src/components/rack` for React rendering and interaction behavior
+
+This keeps positioning logic reusable and prevents rendering components from owning the underlying rack math.

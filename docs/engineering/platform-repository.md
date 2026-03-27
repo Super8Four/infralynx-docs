@@ -74,3 +74,13 @@ IPAM tree visualization is split across three ownership areas:
 - `apps/web/src/components/ipam-tree` for rendering and interaction behavior
 
 This keeps hierarchy rules authoritative in the domain layer and prevents the UI from rebuilding prefix trees during rendering.
+
+## Search Integration Layer
+
+Search is split across three ownership areas:
+
+- `packages/core-domain/src/search` for query normalization, matching, ranking, and grouping rules
+- `apps/web/src/services/search` for search transport and response normalization
+- `apps/web/src/components/search` for global search rendering and grouped result interaction
+
+This keeps the UI decoupled from backend record assembly and prevents domain search logic from fragmenting across multiple frontend components.

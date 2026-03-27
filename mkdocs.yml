@@ -71,6 +71,9 @@ nav:
       - Topology Visualization Architecture: engineering/topology-visualization-architecture.md
       - Topology Node and Edge Mapping: engineering/topology-node-edge-mapping.md
       - Topology UI Interaction: engineering/topology-ui-interaction.md
+      - Search Architecture: engineering/search-architecture.md
+      - Search Filtering Logic: engineering/search-filtering-logic.md
+      - Search Query Patterns: engineering/search-query-patterns.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -97,6 +100,7 @@ nav:
       - ADR-0015 Rack Elevation Visualization: adr/ADR-0015-rack-elevation-visualization.md
       - ADR-0016 Topology Visualization Graph View: adr/ADR-0016-topology-visualization-graph-view.md
       - ADR-0017 IPAM Tree Visualization: adr/ADR-0017-ipam-tree-visualization.md
+      - ADR-0018 Search and Filtering System: adr/ADR-0018-search-and-filtering-system.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

@@ -68,6 +68,12 @@ The IPAM layer now also includes a dedicated hierarchy visualization system:
 - reusable tree flattening helpers in `@infralynx/ui`
 - expandable VRF and prefix rendering in `apps/web`
 
+The UI layer now also includes a centralized search and filtering system:
+
+- deterministic matching and grouping in `@infralynx/core-domain`
+- centralized record assembly in `apps/api`
+- transport, reducer state, and grouped-result rendering in `apps/web`
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

@@ -38,6 +38,8 @@ The foundational platform packages now also include:
 - `@infralynx/dcim-domain`
 - `@infralynx/ui`
 - `@infralynx/network-domain`
+- `@infralynx/media-core`
+- `@infralynx/media-storage`
 
 The networking package is now split into two distinct concerns:
 
@@ -79,6 +81,12 @@ The UI layer now also includes a shared navigation system:
 - route, breadcrumb, and context-link contracts in `@infralynx/ui`
 - persistent shell layout and navigation rendering in `apps/web`
 - explicit domain-to-route mapping for stable cross-domain movement
+
+The core platform now also includes a standalone media service:
+
+- metadata, link, and RBAC helpers in `@infralynx/media-core`
+- local-first object storage adapters in `@infralynx/media-storage`
+- upload and retrieval endpoints in `apps/api`
 
 ## Database Compatibility Direction
 

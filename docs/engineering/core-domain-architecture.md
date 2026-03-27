@@ -11,6 +11,7 @@ The initial core-domain skeleton covers:
 - statuses
 - permissions
 - roles
+- media linking support
 
 These contracts stay intentionally small so later domains can depend on stable identifiers and service boundaries without inheriting application-specific logic too early.
 
@@ -19,6 +20,7 @@ These contracts stay intentionally small so later domains can depend on stable i
 - `@infralynx/core-domain` owns base entities and RBAC-oriented contracts
 - `@infralynx/auth` owns identity, session, and authorization decision scaffolds
 - `@infralynx/audit` owns append-only audit event contracts and summaries
+- `@infralynx/media-core` owns media metadata, linking, validation, and access-control helpers
 
 ## Design Rules
 

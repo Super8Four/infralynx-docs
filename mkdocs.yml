@@ -76,12 +76,17 @@ nav:
       - Search Query Patterns: engineering/search-query-patterns.md
       - Navigation Structure: engineering/navigation-structure.md
       - Page Hierarchy Rules: engineering/page-hierarchy-rules.md
+      - Media System Architecture: engineering/media-system-architecture.md
+      - Media Security And Validation: engineering/media-security-validation.md
+      - Media Object Association Model: engineering/media-object-association.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
       - Database Testing: operations/database-testing.md
+      - Media Storage Strategy: operations/media-storage-strategy.md
   - API:
       - Overview: api/overview.md
+      - Media API: api/media.md
   - Releases:
       - Release Notes: releases/index.md
   - ADR:
@@ -104,6 +109,7 @@ nav:
       - ADR-0017 IPAM Tree Visualization: adr/ADR-0017-ipam-tree-visualization.md
       - ADR-0018 Search and Filtering System: adr/ADR-0018-search-and-filtering-system.md
       - ADR-0019 Global Navigation Refinement: adr/ADR-0019-global-navigation-refinement.md
+      - ADR-0020 Media Asset Management Core Service: adr/ADR-0020-media-asset-management-core-service.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

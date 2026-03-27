@@ -44,6 +44,12 @@ The networking package is now split into two distinct concerns:
 - cross-domain binding contracts
 - deterministic topology and path-tracing helpers
 
+The web application now adds a separate UI data integration layer:
+
+- service functions for transport and normalization
+- hook-based fetch orchestration
+- reducer-backed UI state transitions
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

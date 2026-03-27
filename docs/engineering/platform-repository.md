@@ -64,3 +64,13 @@ Topology visualization is split across three ownership areas:
 - `apps/web/src/components/topology` for rendering and interaction behavior
 
 This keeps graph generation reusable, keeps filters consistent, and prevents the web app from becoming the owner of network topology rules.
+
+## IPAM Tree Visualization Layer
+
+IPAM tree visualization is split across three ownership areas:
+
+- `packages/ipam-domain` for hierarchy validation and utilization helpers
+- `packages/ui/src/ipam-tree` for reusable tree models and flattened rows
+- `apps/web/src/components/ipam-tree` for rendering and interaction behavior
+
+This keeps hierarchy rules authoritative in the domain layer and prevents the UI from rebuilding prefix trees during rendering.

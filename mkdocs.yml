@@ -50,6 +50,9 @@ nav:
       - IPAM Data Model: engineering/ipam-data-model.md
       - IPAM Validation Rules: engineering/ipam-validation.md
       - IPAM Allocation Logic: engineering/ipam-allocation.md
+      - IPAM Hierarchy Rules: engineering/ipam-hierarchy-rules.md
+      - IPAM Visualization Behavior: engineering/ipam-visualization-behavior.md
+      - IPAM Nesting Validation: engineering/ipam-nesting-validation.md
       - DCIM Data Model: engineering/dcim-data-model.md
       - DCIM Physical Relationships: engineering/dcim-physical-relationships.md
       - Rack Modeling: engineering/rack-modeling.md
@@ -93,6 +96,7 @@ nav:
       - ADR-0014 UI Data Integration Layer: adr/ADR-0014-ui-data-integration-layer.md
       - ADR-0015 Rack Elevation Visualization: adr/ADR-0015-rack-elevation-visualization.md
       - ADR-0016 Topology Visualization Graph View: adr/ADR-0016-topology-visualization-graph-view.md
+      - ADR-0017 IPAM Tree Visualization: adr/ADR-0017-ipam-tree-visualization.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

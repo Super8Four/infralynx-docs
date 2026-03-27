@@ -88,6 +88,13 @@ The core platform now also includes a standalone media service:
 - local-first object storage adapters in `@infralynx/media-storage`
 - upload and retrieval endpoints in `apps/api`
 
+The core platform now also includes a standalone job engine:
+
+- lifecycle and retry contracts in `@infralynx/job-core`
+- queue persistence and job leasing in `@infralynx/job-queue`
+- job creation and status endpoints in `apps/api`
+- asynchronous execution in `apps/worker`
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

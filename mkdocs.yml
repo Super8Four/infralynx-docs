@@ -79,14 +79,19 @@ nav:
       - Media System Architecture: engineering/media-system-architecture.md
       - Media Security And Validation: engineering/media-security-validation.md
       - Media Object Association Model: engineering/media-object-association.md
+      - Job System Architecture: engineering/job-system-architecture.md
+      - Job Lifecycle Model: engineering/job-lifecycle-model.md
+      - Worker Model Design: engineering/worker-model-design.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
       - Database Testing: operations/database-testing.md
       - Media Storage Strategy: operations/media-storage-strategy.md
+      - Job Retry and Failure Rules: operations/job-retry-failure-rules.md
   - API:
       - Overview: api/overview.md
       - Media API: api/media.md
+      - Jobs API: api/jobs.md
   - Releases:
       - Release Notes: releases/index.md
   - ADR:
@@ -110,6 +115,7 @@ nav:
       - ADR-0018 Search and Filtering System: adr/ADR-0018-search-and-filtering-system.md
       - ADR-0019 Global Navigation Refinement: adr/ADR-0019-global-navigation-refinement.md
       - ADR-0020 Media Asset Management Core Service: adr/ADR-0020-media-asset-management-core-service.md
+      - ADR-0021 Job Engine Background Task System: adr/ADR-0021-job-engine-background-task-system.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

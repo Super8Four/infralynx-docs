@@ -13,6 +13,8 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/audit` for audit record contracts
 - `packages/media-core` for media metadata, validation, linking, and access-control helpers
 - `packages/media-storage` for filesystem and future cloud-backed object storage adapters
+- `packages/job-core` for job lifecycle, retry, and job-log contracts
+- `packages/job-queue` for queue abstraction and file-backed queue persistence
 - `packages/domain-core` for core platform boundaries and domain contracts
 - `packages/shared` for reusable utilities with low coupling
 - `tests` for shared testing structure
@@ -108,3 +110,14 @@ Media handling is split across three ownership areas:
 - `apps/api/src/media` for HTTP upload and retrieval endpoints
 
 This keeps file handling independent from UI code and prevents domain models from owning file storage concerns.
+
+## Job Engine Layer
+
+Background work is split across four ownership areas:
+
+- `packages/job-core` for job records, state transitions, retry rules, and log contracts
+- `packages/job-queue` for queue storage and leasing behavior
+- `apps/api/src/jobs` for HTTP job creation and status retrieval
+- `apps/worker/src/jobs` for asynchronous processing and handler execution
+
+This keeps asynchronous execution separate from request handling and prevents domain packages from owning queue infrastructure.

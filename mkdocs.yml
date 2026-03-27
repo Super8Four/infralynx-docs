@@ -60,6 +60,9 @@ nav:
       - Topology Model: engineering/topology-model.md
       - Path Tracing Logic: engineering/path-tracing-logic.md
       - L2 vs L3 Handling: engineering/l2-vs-l3-handling.md
+      - API Usage Patterns: engineering/api-usage-patterns.md
+      - UI Data Flow: engineering/ui-data-flow.md
+      - UI Error Handling: engineering/ui-error-handling.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -82,6 +85,7 @@ nav:
       - ADR-0011 UI Shell Architecture: adr/ADR-0011-ui-shell-architecture.md
       - ADR-0012 Cross-Domain Integration Model: adr/ADR-0012-cross-domain-integration-model.md
       - ADR-0013 Network Modeling Engine: adr/ADR-0013-network-modeling-engine.md
+      - ADR-0014 UI Data Integration Layer: adr/ADR-0014-ui-data-integration-layer.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

@@ -35,3 +35,13 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/ui` defines shell navigation, tokens, and shared UI contracts
 - `packages/shared` must not become an unreviewed dumping ground
 - database-engine specifics belong under `migrations/*`, not mixed into app code
+
+## UI Integration Layer
+
+The web application uses a three-part data integration boundary:
+
+- `apps/web/src/services` for transport and normalization
+- `apps/web/src/hooks` for request lifecycle orchestration
+- `apps/web/src/state` for reducer-backed UI state
+
+This keeps frontend rendering decoupled from raw API payload structure.

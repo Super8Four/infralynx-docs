@@ -95,6 +95,13 @@ The core platform now also includes a standalone job engine:
 - job creation and status endpoints in `apps/api`
 - asynchronous execution in `apps/worker`
 
+The core platform now also includes a standalone scheduler:
+
+- recurring schedule definitions in `@infralynx/scheduler`
+- schedule CRUD endpoints in `apps/api`
+- worker-side trigger evaluation that enqueues normal jobs
+- centralized schedule state that survives process restarts
+
 The core platform now also includes a standalone transfer service:
 
 - format and schema validation in `@infralynx/data-transfer`

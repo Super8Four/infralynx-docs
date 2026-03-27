@@ -19,6 +19,9 @@ InfraLynx product UI should feel like a calm control surface, not a marketing da
 ## Navigation Rules
 
 - top-level navigation should represent domains or working modes
+- sidebar grouping should separate platform, domains, and services
+- breadcrumbs should be generated from shared route metadata
+- context links should support the current route instead of duplicating the sidebar
 - labels should be operational and stable
 - active state must be visually obvious without relying only on color
 - avoid deep nested navigation until real domain workloads require it

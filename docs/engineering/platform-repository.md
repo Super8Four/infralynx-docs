@@ -84,3 +84,13 @@ Search is split across three ownership areas:
 - `apps/web/src/components/search` for global search rendering and grouped result interaction
 
 This keeps the UI decoupled from backend record assembly and prevents domain search logic from fragmenting across multiple frontend components.
+
+## Navigation Integration Layer
+
+Navigation is split across three ownership areas:
+
+- `packages/ui/src/navigation` for route metadata, grouping, breadcrumb, and context contracts
+- `apps/web/src/layout` for shell composition and structural layout ownership
+- `apps/web/src/components/navigation` for sidebar, breadcrumb, and context navigation rendering
+
+This keeps navigation rules centralized and prevents individual pages from inventing inconsistent hierarchy behavior.

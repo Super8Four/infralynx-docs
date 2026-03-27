@@ -48,6 +48,8 @@ nav:
       - Database Abstraction: engineering/database-abstraction.md
       - Core Domain Architecture: engineering/core-domain-architecture.md
       - Authentication Model: engineering/auth-model.md
+      - Authentication Architecture: engineering/authentication-architecture.md
+      - Provider Configuration Guide: engineering/provider-configuration-guide.md
       - RBAC Model: engineering/rbac-model.md
       - IPAM Data Model: engineering/ipam-data-model.md
       - IPAM Validation Rules: engineering/ipam-validation.md
@@ -101,9 +103,14 @@ nav:
       - Job Retry and Failure Rules: operations/job-retry-failure-rules.md
       - Scheduler Timezone Handling: operations/scheduler-timezone-handling.md
       - Scheduler Failure Handling: operations/scheduler-failure-handling.md
+      - LDAP Setup Guide: operations/ldap-setup-guide.md
+      - Azure AD OIDC Setup: operations/azure-ad-oidc-setup.md
+      - SAML Setup Guide: operations/saml-setup-guide.md
+      - Auth Security Considerations: operations/auth-security-considerations.md
       - Import and Export Error Handling: operations/import-export-error-handling.md
   - API:
       - Overview: api/overview.md
+      - Authentication API: api/authentication.md
       - Media API: api/media.md
       - Jobs API: api/jobs.md
       - Scheduler API: api/scheduler.md
@@ -142,6 +149,7 @@ nav:
       - ADR-0023 Data Interaction Layer Phase 1 Navigation: adr/ADR-0023-data-interaction-layer-phase-1-navigation.md
       - ADR-0024 Webhooks Integration Events: adr/ADR-0024-webhooks-integration-events.md
       - ADR-0025 Scheduled Task System: adr/ADR-0025-scheduled-task-system.md
+      - ADR-0026 Authentication System Multi Provider: adr/ADR-0026-authentication-system-multi-provider.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

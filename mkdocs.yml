@@ -74,6 +74,8 @@ nav:
       - Search Architecture: engineering/search-architecture.md
       - Search Filtering Logic: engineering/search-filtering-logic.md
       - Search Query Patterns: engineering/search-query-patterns.md
+      - Navigation Structure: engineering/navigation-structure.md
+      - Page Hierarchy Rules: engineering/page-hierarchy-rules.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -101,8 +103,10 @@ nav:
       - ADR-0016 Topology Visualization Graph View: adr/ADR-0016-topology-visualization-graph-view.md
       - ADR-0017 IPAM Tree Visualization: adr/ADR-0017-ipam-tree-visualization.md
       - ADR-0018 Search and Filtering System: adr/ADR-0018-search-and-filtering-system.md
+      - ADR-0019 Global Navigation Refinement: adr/ADR-0019-global-navigation-refinement.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md
       - UI Shell Guidelines: design/ui-shell-guidelines.md
+      - Navigation UX Guidelines: design/navigation-ux-guidelines.md
   - Contributing: contributing.md

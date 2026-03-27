@@ -74,6 +74,12 @@ The UI layer now also includes a centralized search and filtering system:
 - centralized record assembly in `apps/api`
 - transport, reducer state, and grouped-result rendering in `apps/web`
 
+The UI layer now also includes a shared navigation system:
+
+- route, breadcrumb, and context-link contracts in `@infralynx/ui`
+- persistent shell layout and navigation rendering in `apps/web`
+- explicit domain-to-route mapping for stable cross-domain movement
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

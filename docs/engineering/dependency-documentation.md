@@ -6,7 +6,7 @@ Chunk 22.5 standardized the platform around wrapped external libraries for infra
 
 - `openid-client` for OIDC flows
 - `ldapjs` for LDAP and Active Directory connectivity
-- `passport-saml` for SAML request and response handling
+- `@node-saml/node-saml` for SAML request and response handling
 - `bcrypt` for password hashing
 - `jose` retained for JWT session handling
 

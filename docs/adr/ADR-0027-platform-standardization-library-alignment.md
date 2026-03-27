@@ -13,7 +13,7 @@ InfraLynx will standardize on wrapped third-party libraries for non-core infrast
 
 - `openid-client` for OIDC
 - `ldapjs` for LDAP
-- `passport-saml` for SAML
+- `@node-saml/node-saml` for SAML, used as the maintained equivalent to legacy `passport-saml`
 - `bcrypt` for password hashing
 - `bullmq` for async job execution
 - `node-cron` for recurring schedule triggers

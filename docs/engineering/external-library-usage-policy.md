@@ -13,7 +13,7 @@ InfraLynx uses external libraries for solved infrastructure problems and keeps c
 
 - OIDC: `openid-client`
 - LDAP: `ldapjs`
-- SAML: `passport-saml`
+- SAML: `@node-saml/node-saml` as the maintained equivalent to older `passport-saml` guidance
 - Password hashing: `bcrypt`
 - Jobs: `bullmq`
 - Scheduling: `node-cron`

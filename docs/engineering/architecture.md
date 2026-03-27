@@ -104,7 +104,7 @@ The core platform now also includes a standalone scheduler:
 
 The infrastructure layer is now standardized around wrapped third-party libraries:
 
-- `openid-client`, `ldapjs`, `passport-saml`, and `bcrypt` for authentication concerns
+- `openid-client`, `ldapjs`, `@node-saml/node-saml`, and `bcrypt` for authentication concerns
 - `bullmq` for background queue execution
 - `node-cron` for recurring triggers
 - `axios` for outbound webhook delivery

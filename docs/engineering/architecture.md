@@ -101,6 +101,13 @@ The core platform now also includes a standalone transfer service:
 - import and export endpoints in `apps/api`
 - job-engine-backed asynchronous import for larger payloads
 
+The core platform now also includes an event-driven integration layer:
+
+- explicit event persistence in `@infralynx/event-core`
+- webhook registration and delivery contracts in `@infralynx/webhooks`
+- webhook and event endpoints in `apps/api`
+- job-engine-backed asynchronous webhook delivery in `apps/worker`
+
 The web application now also includes a phase-1 data interaction layer:
 
 - file-backed bootstrap inventory persistence behind API resource contracts

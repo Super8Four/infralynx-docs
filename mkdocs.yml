@@ -106,6 +106,11 @@ nav:
       - Webhooks and Events API: api/webhooks.md
   - Releases:
       - Release Notes: releases/index.md
+  - Development:
+      - Versioning Strategy: development/versioning.md
+  - Legal:
+      - Licensing: legal/licensing.md
+      - Commercial Model: legal/commercial-model.md
   - ADR:
       - Overview: adr/index.md
       - ADR Template: adr/adr-template.md

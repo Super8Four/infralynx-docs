@@ -56,6 +56,12 @@ The UI layer now also includes a dedicated rack visualization system:
 - API-driven rack payloads
 - interactive device and port selection in the web shell
 
+The UI layer now also includes a topology visualization system:
+
+- deterministic graph generation in `@infralynx/network-domain`
+- reusable graph filtering helpers in `@infralynx/ui`
+- interactive SVG rendering, zoom, pan, and selection in `apps/web`
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

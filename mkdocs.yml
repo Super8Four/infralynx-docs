@@ -65,6 +65,9 @@ nav:
       - UI Error Handling: engineering/ui-error-handling.md
       - Rack Rendering Model: engineering/rack-rendering-model.md
       - Rack Interaction Rules: engineering/rack-interaction-rules.md
+      - Topology Visualization Architecture: engineering/topology-visualization-architecture.md
+      - Topology Node and Edge Mapping: engineering/topology-node-edge-mapping.md
+      - Topology UI Interaction: engineering/topology-ui-interaction.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -89,6 +92,7 @@ nav:
       - ADR-0013 Network Modeling Engine: adr/ADR-0013-network-modeling-engine.md
       - ADR-0014 UI Data Integration Layer: adr/ADR-0014-ui-data-integration-layer.md
       - ADR-0015 Rack Elevation Visualization: adr/ADR-0015-rack-elevation-visualization.md
+      - ADR-0016 Topology Visualization Graph View: adr/ADR-0016-topology-visualization-graph-view.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

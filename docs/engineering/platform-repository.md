@@ -54,3 +54,13 @@ Rack visualization is split across two ownership areas:
 - `apps/web/src/components/rack` for React rendering and interaction behavior
 
 This keeps positioning logic reusable and prevents rendering components from owning the underlying rack math.
+
+## Topology Visualization Layer
+
+Topology visualization is split across three ownership areas:
+
+- `packages/network-domain/src/topology-view` for deterministic device-node and cable-edge generation
+- `packages/ui/src/topology` for graph filtering and selection helpers
+- `apps/web/src/components/topology` for rendering and interaction behavior
+
+This keeps graph generation reusable, keeps filters consistent, and prevents the web app from becoming the owner of network topology rules.

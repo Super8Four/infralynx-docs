@@ -101,6 +101,13 @@ The core platform now also includes a standalone transfer service:
 - import and export endpoints in `apps/api`
 - job-engine-backed asynchronous import for larger payloads
 
+The web application now also includes a phase-1 data interaction layer:
+
+- file-backed bootstrap inventory persistence behind API resource contracts
+- reusable CRUD pages for sites, racks, devices, prefixes, and IP addresses
+- read-only operational pages for tenants, users, VRFs, interfaces, connections, and jobs
+- phase-based navigation that exposes only usable product surfaces
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

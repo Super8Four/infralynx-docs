@@ -97,9 +97,20 @@ Navigation is split across three ownership areas:
 
 - `packages/ui/src/navigation` for route metadata, grouping, breadcrumb, and context contracts
 - `apps/web/src/layout` for shell composition and structural layout ownership
-- `apps/web/src/components/navigation` for sidebar, breadcrumb, and context navigation rendering
+- `apps/web/src/components/layout/navigation` for sidebar, breadcrumb, and context navigation rendering
 
 This keeps navigation rules centralized and prevents individual pages from inventing inconsistent hierarchy behavior.
+
+## Data Interaction Layer
+
+Phase 1 CRUD and read-only resource interaction is split across four ownership areas:
+
+- `apps/api/src/inventory` for persisted inventory contracts, list/detail payloads, and CRUD mutation handling
+- `apps/web/src/services` for API transport and normalization
+- `apps/web/src/pages/*` for resource-level list, detail, and form composition
+- `apps/web/src/components/forms`, `apps/web/src/components/tables`, and `apps/web/src/components/detail` for reusable interaction primitives
+
+This keeps the UI decoupled from storage details and keeps CRUD behavior consistent across domains.
 
 ## Media Service Layer
 

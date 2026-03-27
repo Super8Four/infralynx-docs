@@ -13,6 +13,8 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/audit` for audit record contracts
 - `packages/media-core` for media metadata, validation, linking, and access-control helpers
 - `packages/media-storage` for filesystem and future cloud-backed object storage adapters
+- `packages/event-core` for explicit integration event records
+- `packages/webhooks` for webhook configuration and delivery contracts
 - `packages/job-core` for job lifecycle, retry, and job-log contracts
 - `packages/job-queue` for queue abstraction and file-backed queue persistence
 - `packages/domain-core` for core platform boundaries and domain contracts
@@ -142,3 +144,14 @@ Transfer behavior is split across three ownership areas:
 - `apps/api/src/export` for format-aware export endpoints
 
 This keeps transport formats consistent across domains and prevents ad hoc import logic from leaking into runtime services.
+
+## Event And Webhook Layer
+
+Integration events are split across four ownership areas:
+
+- `packages/event-core` for stored event contracts
+- `packages/webhooks` for webhook configuration, filtering, signing, and delivery records
+- `apps/api/src/webhooks` for event and webhook HTTP endpoints plus emission orchestration
+- `apps/worker/src/jobs` for asynchronous webhook delivery execution
+
+This keeps outbound integrations explicit and prevents API request handlers from performing direct remote callbacks.

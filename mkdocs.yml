@@ -81,6 +81,8 @@ nav:
       - Media System Architecture: engineering/media-system-architecture.md
       - Media Security And Validation: engineering/media-security-validation.md
       - Media Object Association Model: engineering/media-object-association.md
+      - Event Model: engineering/event-model.md
+      - Webhook Configuration: engineering/webhook-configuration.md
       - Job System Architecture: engineering/job-system-architecture.md
       - Job Lifecycle Model: engineering/job-lifecycle-model.md
       - Worker Model Design: engineering/worker-model-design.md
@@ -92,6 +94,8 @@ nav:
       - CI/CD: operations/ci-cd.md
       - Database Testing: operations/database-testing.md
       - Media Storage Strategy: operations/media-storage-strategy.md
+      - Webhook Delivery Guarantees: operations/webhook-delivery-guarantees.md
+      - Webhook Security Model: operations/webhook-security-model.md
       - Job Retry and Failure Rules: operations/job-retry-failure-rules.md
       - Import and Export Error Handling: operations/import-export-error-handling.md
   - API:
@@ -99,6 +103,7 @@ nav:
       - Media API: api/media.md
       - Jobs API: api/jobs.md
       - Import and Export API: api/import-export.md
+      - Webhooks and Events API: api/webhooks.md
   - Releases:
       - Release Notes: releases/index.md
   - ADR:
@@ -125,6 +130,7 @@ nav:
       - ADR-0021 Job Engine Background Task System: adr/ADR-0021-job-engine-background-task-system.md
       - ADR-0022 Import Export Framework: adr/ADR-0022-import-export-framework.md
       - ADR-0023 Data Interaction Layer Phase 1 Navigation: adr/ADR-0023-data-interaction-layer-phase-1-navigation.md
+      - ADR-0024 Webhooks Integration Events: adr/ADR-0024-webhooks-integration-events.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

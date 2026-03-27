@@ -85,6 +85,8 @@ nav:
       - Webhook Configuration: engineering/webhook-configuration.md
       - Job System Architecture: engineering/job-system-architecture.md
       - Job Lifecycle Model: engineering/job-lifecycle-model.md
+      - Scheduling Model: engineering/scheduling-model.md
+      - Cron Syntax Usage: engineering/cron-syntax-usage.md
       - Worker Model Design: engineering/worker-model-design.md
       - Import and Export Formats: engineering/import-export-formats.md
       - Import and Export Validation: engineering/import-export-validation.md
@@ -97,11 +99,14 @@ nav:
       - Webhook Delivery Guarantees: operations/webhook-delivery-guarantees.md
       - Webhook Security Model: operations/webhook-security-model.md
       - Job Retry and Failure Rules: operations/job-retry-failure-rules.md
+      - Scheduler Timezone Handling: operations/scheduler-timezone-handling.md
+      - Scheduler Failure Handling: operations/scheduler-failure-handling.md
       - Import and Export Error Handling: operations/import-export-error-handling.md
   - API:
       - Overview: api/overview.md
       - Media API: api/media.md
       - Jobs API: api/jobs.md
+      - Scheduler API: api/scheduler.md
       - Import and Export API: api/import-export.md
       - Webhooks and Events API: api/webhooks.md
   - Releases:
@@ -136,6 +141,7 @@ nav:
       - ADR-0022 Import Export Framework: adr/ADR-0022-import-export-framework.md
       - ADR-0023 Data Interaction Layer Phase 1 Navigation: adr/ADR-0023-data-interaction-layer-phase-1-navigation.md
       - ADR-0024 Webhooks Integration Events: adr/ADR-0024-webhooks-integration-events.md
+      - ADR-0025 Scheduled Task System: adr/ADR-0025-scheduled-task-system.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

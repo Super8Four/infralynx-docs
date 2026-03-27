@@ -17,6 +17,7 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/webhooks` for webhook configuration and delivery contracts
 - `packages/job-core` for job lifecycle, retry, and job-log contracts
 - `packages/job-queue` for queue abstraction and file-backed queue persistence
+- `packages/scheduler` for recurring schedule definitions, cron parsing, and job-trigger orchestration
 - `packages/domain-core` for core platform boundaries and domain contracts
 - `packages/shared` for reusable utilities with low coupling
 - `tests` for shared testing structure
@@ -134,6 +135,16 @@ Background work is split across four ownership areas:
 - `apps/worker/src/jobs` for asynchronous processing and handler execution
 
 This keeps asynchronous execution separate from request handling and prevents domain packages from owning queue infrastructure.
+
+## Scheduler Layer
+
+Recurring and timed trigger behavior is split across three ownership areas:
+
+- `packages/scheduler` for schedule contracts, cron parsing, next-run calculation, and persisted schedule state
+- `apps/api/src/scheduler` for schedule CRUD and visibility endpoints
+- `apps/worker/src/jobs` for due-schedule evaluation and job enqueueing
+
+This keeps the scheduler focused on trigger creation and leaves execution to the job engine.
 
 ## Import And Export Layer
 

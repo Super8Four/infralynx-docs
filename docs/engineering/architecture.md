@@ -62,6 +62,12 @@ The UI layer now also includes a topology visualization system:
 - reusable graph filtering helpers in `@infralynx/ui`
 - interactive SVG rendering, zoom, pan, and selection in `apps/web`
 
+The IPAM layer now also includes a dedicated hierarchy visualization system:
+
+- hierarchy validation and utilization precomputation in `@infralynx/ipam-domain`
+- reusable tree flattening helpers in `@infralynx/ui`
+- expandable VRF and prefix rendering in `apps/web`
+
 ## Database Compatibility Direction
 
 InfraLynx must support:

@@ -102,6 +102,12 @@ The core platform now also includes a standalone scheduler:
 - worker-side trigger evaluation that enqueues normal jobs
 - centralized schedule state that survives process restarts
 
+The core platform now also includes a standalone backup and restore layer:
+
+- backup archive, restore preview, and rollback-safe restore behavior in `@infralynx/backup`
+- backup management and scheduling endpoints in `apps/api`
+- job-engine-backed asynchronous backup creation for scheduled protection
+
 The infrastructure layer is now standardized around wrapped third-party libraries:
 
 - `openid-client`, `ldapjs`, `@node-saml/node-saml`, and `bcrypt` for authentication concerns

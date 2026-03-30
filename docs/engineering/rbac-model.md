@@ -2,30 +2,32 @@
 
 InfraLynx uses RBAC to keep authorization predictable across product domains.
 
-## Model
+## Core Terms
 
 - permission: action allowed on a resource
 - role: named bundle of permissions
-- assignment: roles granted to an authenticated identity
-- access decision: allow or deny result for a requested permission
+- assignment: a role granted at a specific scope
+- provider mapping: external group or claim translated into an assignment
+- access decision: allow or deny result for a requested permission and scope
 
-## Early Baseline
+## Current Model
 
-The current skeleton defines:
+The current RBAC layer defines:
 
-- permission identifiers like `tenant:read`
-- role identifiers like `platform-admin`
-- authorization evaluation based on assigned role IDs
+- permission identifiers like `device:write`
+- scope-aware assignments for `global`, `tenant`, `site`, and `device`
+- provider role mappings for LDAP, OIDC, and SAML inputs
+- authorization evaluation based on effective grants, not only raw role IDs
 
 ## Design Rules
 
 - roles must remain business-readable
 - permissions must stay stable and machine-oriented
 - application code should ask for a permission decision, not inspect role names directly
-- domain-specific permissions will extend the core set later rather than replacing it
+- provider-specific values must be normalized before they influence authorization
 
 ## Risks to Control
 
 - role explosion from overly specific roles
-- permission names tied too tightly to UI screens
+- scope misuse causing inconsistent access
 - hidden authorization logic outside shared policy evaluation

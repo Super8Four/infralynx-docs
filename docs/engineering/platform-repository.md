@@ -18,6 +18,7 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/job-core` for job lifecycle, retry, and job-log contracts
 - `packages/job-queue` for queue abstraction and file-backed queue persistence
 - `packages/scheduler` for recurring schedule definitions, cron parsing, and job-trigger orchestration
+- `packages/backup` for backup archive, restore preview, and data-safety orchestration
 - `packages/domain-core` for core platform boundaries and domain contracts
 - `packages/shared` for reusable utilities with low coupling
 - `tests` for shared testing structure
@@ -145,6 +146,16 @@ Recurring and timed trigger behavior is split across three ownership areas:
 - `apps/worker/src/jobs` for due-schedule evaluation and job enqueueing
 
 This keeps the scheduler focused on trigger creation and leaves execution to the job engine.
+
+## Backup And Restore Layer
+
+Backup and restore behavior is split across three ownership areas:
+
+- `packages/backup` for archive creation, restore validation, restore rollback safety, and engine strategy contracts
+- `apps/api/src/backup` for HTTP backup management and restore endpoints
+- `apps/worker/src/jobs` for asynchronous scheduled backup execution
+
+This keeps data-safety flows centralized and prevents restore logic from leaking into domain packages.
 
 ## Import And Export Layer
 

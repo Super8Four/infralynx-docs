@@ -54,6 +54,8 @@ nav:
       - Dependency Documentation: engineering/dependency-documentation.md
       - Provider Configuration Guide: engineering/provider-configuration-guide.md
       - RBAC Model: engineering/rbac-model.md
+      - RBAC Architecture: engineering/rbac-architecture.md
+      - Permission Hierarchy: engineering/permission-hierarchy.md
       - IPAM Data Model: engineering/ipam-data-model.md
       - IPAM Validation Rules: engineering/ipam-validation.md
       - IPAM Allocation Logic: engineering/ipam-allocation.md
@@ -92,10 +94,17 @@ nav:
       - Job Lifecycle Model: engineering/job-lifecycle-model.md
       - Scheduling Model: engineering/scheduling-model.md
       - Cron Syntax Usage: engineering/cron-syntax-usage.md
+      - Backup Strategy: engineering/backup-strategy.md
       - Worker Model Design: engineering/worker-model-design.md
       - Import and Export Formats: engineering/import-export-formats.md
       - Import and Export Validation: engineering/import-export-validation.md
       - Data Mapping Guidelines: engineering/data-mapping-guidelines.md
+      - Validation Rules: engineering/validation-rules.md
+      - Conflict Detection Logic: engineering/conflict-detection-logic.md
+      - Audit Model: engineering/audit-model.md
+      - Audit Event Types: engineering/audit-event-types.md
+      - Workflow Model: engineering/workflow-model.md
+      - Workflow Use Cases: engineering/workflow-use-cases.md
   - Operations:
       - Deployment: operations/deployment.md
       - CI/CD: operations/ci-cd.md
@@ -106,19 +115,29 @@ nav:
       - Job Retry and Failure Rules: operations/job-retry-failure-rules.md
       - Scheduler Timezone Handling: operations/scheduler-timezone-handling.md
       - Scheduler Failure Handling: operations/scheduler-failure-handling.md
+      - Restore Procedures: operations/restore-procedures.md
+      - Disaster Recovery Guide: operations/disaster-recovery-guide.md
       - LDAP Setup Guide: operations/ldap-setup-guide.md
       - Azure AD OIDC Setup: operations/azure-ad-oidc-setup.md
       - SAML Setup Guide: operations/saml-setup-guide.md
       - Auth Security Considerations: operations/auth-security-considerations.md
       - Import and Export Error Handling: operations/import-export-error-handling.md
+      - Provider Role Mapping: operations/provider-role-mapping.md
+      - Audit Query Patterns: operations/audit-query-patterns.md
+      - Approval Lifecycle: operations/approval-lifecycle.md
   - API:
       - Overview: api/overview.md
       - Authentication API: api/authentication.md
       - Media API: api/media.md
       - Jobs API: api/jobs.md
       - Scheduler API: api/scheduler.md
+      - Backup API: api/backup.md
       - Import and Export API: api/import-export.md
       - Webhooks and Events API: api/webhooks.md
+      - RBAC API: api/rbac.md
+      - Validation API: api/validation.md
+      - Audit API: api/audit.md
+      - Workflows API: api/workflows.md
   - Releases:
       - Release Notes: releases/index.md
   - Development:
@@ -154,6 +173,11 @@ nav:
       - ADR-0025 Scheduled Task System: adr/ADR-0025-scheduled-task-system.md
       - ADR-0026 Authentication System Multi Provider: adr/ADR-0026-authentication-system-multi-provider.md
       - ADR-0027 Platform Standardization Library Alignment: adr/ADR-0027-platform-standardization-library-alignment.md
+      - ADR-0028 Advanced RBAC Scoped Provider Aware: adr/ADR-0028-advanced-rbac-scoped-provider-aware.md
+      - ADR-0029 Audit Logging Structured System Wide: adr/ADR-0029-audit-logging-structured-system-wide.md
+      - ADR-0030 Approval Workflows Foundation: adr/ADR-0030-approval-workflows-foundation.md
+      - ADR-0031 Data Validation Conflict Engine: adr/ADR-0031-data-validation-conflict-engine.md
+      - ADR-0032 Backup Restore Data Safety: adr/ADR-0032-backup-restore-data-safety.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

@@ -14,7 +14,7 @@ API documentation should be organized by:
 
 ## Current Status
 
-The API surface now includes baseline read endpoints for shell-facing data, a standalone media API for upload and retrieval, a jobs API for asynchronous background execution, a scheduler API for recurring trigger definitions, import/export APIs for structured transfer workflows, and a webhook/events API for outbound integration delivery. Documentation is still growing by subsystem, but the framework is now paired with active contracts.
+The API surface now includes baseline read endpoints for shell-facing data, a standalone media API for upload and retrieval, a jobs API for asynchronous background execution, a scheduler API for recurring trigger definitions, a backup API for recovery workflows, import/export APIs for structured transfer workflows, and a webhook/events API for outbound integration delivery. Documentation is still growing by subsystem, but the framework is now paired with active contracts.
 
 ## Documentation Rules
 

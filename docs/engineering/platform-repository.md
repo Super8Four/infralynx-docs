@@ -1,5 +1,25 @@
 # Platform Repository Structure
 
+InfraLynx is intentionally split across a small repository ecosystem so runtime code, documentation, governance, design direction, and infrastructure concerns can evolve without collapsing into a single unstructured repository.
+
+## Repository Ecosystem
+
+- `infralynx-platform` for the runtime application, UI, API, worker, shared packages, tests, and migrations
+- `infralynx-docs` for architecture, API, operations, ADRs, onboarding, and public-facing written guidance
+- `infralynx-infra` for infrastructure-as-code, deployment pipelines, and hosting configuration
+- `infralynx-standards` for governance, contribution policy, templates, and development rules
+- `infralynx-design` for UI and UX standards, branding, design-system direction, and shared visual assets
+
+## Current Program Status
+
+- Program snapshot: `v0.1.0-alpha+chunk31`
+- Current chunk: `31.1`
+- Current phase: `Scale / Reliability`
+- Next milestone: `Chunk 32 -> API Versioning`
+- Target release: `v1.0.0`
+
+## Platform Monorepo
+
 The `infralynx-platform` repository is a buildable monorepo foundation designed to keep runtime concerns, shared packages, migrations, and deployment-facing assets separated from the start.
 
 ## Structure Overview

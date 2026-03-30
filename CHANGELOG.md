@@ -2,6 +2,35 @@
 
 All notable changes to this repository will be documented in this file.
 
+## [v0.12.0-alpha+chunk31.1]
+
+### Added
+- Repository presentation, onboarding, and ecosystem navigation documentation.
+
+### Changed
+- Standardized README presentation across InfraLynx repositories and updated the documentation navigation to reflect repository ecosystem onboarding.
+
+### Fixed
+- Clarified how contributors navigate the full InfraLynx repository landscape from docs-first entry points.
+
+### Removed
+- None.
+
+## [v0.12.0-alpha]
+
+### Added
+- API versioning, deprecation policy, error model, and ADR-0036 documentation.
+
+### Changed
+- Updated the documentation release baseline to `v0.12.0-alpha`.
+- Expanded API guidance to standardize `/api/v1`, contract validation, and legacy-route deprecation behavior.
+
+### Fixed
+- Clarified how InfraLynx preserves backward compatibility while hardening request and response contracts for external integrations.
+
+### Removed
+- None.
+
 ## [v0.11.0-alpha]
 
 ### Added

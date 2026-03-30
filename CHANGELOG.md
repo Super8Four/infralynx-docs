@@ -2,6 +2,21 @@
 
 All notable changes to this repository will be documented in this file.
 
+## [v0.11.0-alpha]
+
+### Added
+- Load test scenarios, performance thresholds, scaling recommendations, and ADR-0035 documentation.
+
+### Changed
+- Updated the documentation release baseline to `v0.11.0-alpha`.
+- Expanded operations guidance to cover Artillery-based stability validation, pass/fail thresholds, and current bootstrap limitations around live database pool testing.
+
+### Fixed
+- Clarified how InfraLynx validates concurrency and queue pressure before the persistent database and worker scaling phases are fully mature.
+
+### Removed
+- None.
+
 ## [v0.10.0-alpha]
 
 ### Added

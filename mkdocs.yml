@@ -97,6 +97,7 @@ nav:
       - Backup Strategy: engineering/backup-strategy.md
       - Caching Architecture: engineering/caching-architecture.md
       - Indexing Strategy: engineering/indexing-strategy.md
+      - Load Test Scenarios: engineering/load-test-scenarios.md
       - Query Standards: engineering/query-standards.md
       - Worker Model Design: engineering/worker-model-design.md
       - Import and Export Formats: engineering/import-export-formats.md
@@ -120,6 +121,8 @@ nav:
       - Scheduler Failure Handling: operations/scheduler-failure-handling.md
       - Restore Procedures: operations/restore-procedures.md
       - Disaster Recovery Guide: operations/disaster-recovery-guide.md
+      - Performance Thresholds: operations/performance-thresholds.md
+      - Scaling Recommendations: operations/scaling-recommendations.md
       - Cache Invalidation Rules: operations/cache-invalidation-rules.md
       - DB Engine Performance Notes: operations/db-engine-performance-notes.md
       - TTL Standards: operations/ttl-standards.md
@@ -187,6 +190,7 @@ nav:
       - ADR-0032 Backup Restore Data Safety: adr/ADR-0032-backup-restore-data-safety.md
       - ADR-0033 Caching Performance Layer: adr/ADR-0033-caching-performance-layer.md
       - ADR-0034 Query Optimization Index Strategy: adr/ADR-0034-query-optimization-index-strategy.md
+      - ADR-0035 Load Testing Stability Validation: adr/ADR-0035-load-testing-stability-validation.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

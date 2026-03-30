@@ -2,6 +2,21 @@
 
 All notable changes to this repository will be documented in this file.
 
+## [v0.9.0-alpha]
+
+### Added
+- Caching architecture, invalidation rules, TTL standards, cache API, and ADR-0033 documentation.
+
+### Changed
+- Updated the documentation release baseline to `v0.9.0-alpha`.
+- Expanded performance guidance to cover Redis-backed API caching, scoped cache keys, and write-owned invalidation.
+
+### Fixed
+- Clarified how InfraLynx improves repeated read performance without leaking cache behavior into domain logic.
+
+### Removed
+- None.
+
 ## [v0.8.0-alpha]
 
 ### Added

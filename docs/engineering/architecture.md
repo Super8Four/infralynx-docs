@@ -34,12 +34,19 @@ The foundational platform packages now also include:
 - `@infralynx/core-domain`
 - `@infralynx/auth`
 - `@infralynx/audit`
+- `@infralynx/cache-core`
 - `@infralynx/ipam-domain`
 - `@infralynx/dcim-domain`
 - `@infralynx/ui`
 - `@infralynx/network-domain`
 - `@infralynx/media-core`
 - `@infralynx/media-storage`
+
+The platform now also includes a centralized caching layer:
+
+- Redis-backed cache abstraction in `@infralynx/cache-core`
+- API-owned scoped cache keys and short TTL profiles
+- explicit invalidation on successful write paths
 
 The networking package is now split into two distinct concerns:
 

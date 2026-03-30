@@ -11,6 +11,7 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/core-domain` for base entities, statuses, permissions, and roles
 - `packages/auth` for identity, session, and authorization scaffolds
 - `packages/audit` for audit record contracts
+- `packages/cache-core` for Redis-backed caching abstractions, TTL policies, and invalidation helpers
 - `packages/media-core` for media metadata, validation, linking, and access-control helpers
 - `packages/media-storage` for filesystem and future cloud-backed object storage adapters
 - `packages/event-core` for explicit integration event records
@@ -19,6 +20,7 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/job-queue` for queue abstraction and file-backed queue persistence
 - `packages/scheduler` for recurring schedule definitions, cron parsing, and job-trigger orchestration
 - `packages/backup` for backup archive, restore preview, and data-safety orchestration
+- `apps/api/src/cache` for API-side cache orchestration, scoped keys, and invalidation boundaries
 - `packages/domain-core` for core platform boundaries and domain contracts
 - `packages/shared` for reusable utilities with low coupling
 - `tests` for shared testing structure

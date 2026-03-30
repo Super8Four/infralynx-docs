@@ -95,6 +95,7 @@ nav:
       - Scheduling Model: engineering/scheduling-model.md
       - Cron Syntax Usage: engineering/cron-syntax-usage.md
       - Backup Strategy: engineering/backup-strategy.md
+      - Caching Architecture: engineering/caching-architecture.md
       - Worker Model Design: engineering/worker-model-design.md
       - Import and Export Formats: engineering/import-export-formats.md
       - Import and Export Validation: engineering/import-export-validation.md
@@ -117,6 +118,8 @@ nav:
       - Scheduler Failure Handling: operations/scheduler-failure-handling.md
       - Restore Procedures: operations/restore-procedures.md
       - Disaster Recovery Guide: operations/disaster-recovery-guide.md
+      - Cache Invalidation Rules: operations/cache-invalidation-rules.md
+      - TTL Standards: operations/ttl-standards.md
       - LDAP Setup Guide: operations/ldap-setup-guide.md
       - Azure AD OIDC Setup: operations/azure-ad-oidc-setup.md
       - SAML Setup Guide: operations/saml-setup-guide.md
@@ -132,6 +135,7 @@ nav:
       - Jobs API: api/jobs.md
       - Scheduler API: api/scheduler.md
       - Backup API: api/backup.md
+      - Cache API: api/cache.md
       - Import and Export API: api/import-export.md
       - Webhooks and Events API: api/webhooks.md
       - RBAC API: api/rbac.md
@@ -178,6 +182,7 @@ nav:
       - ADR-0030 Approval Workflows Foundation: adr/ADR-0030-approval-workflows-foundation.md
       - ADR-0031 Data Validation Conflict Engine: adr/ADR-0031-data-validation-conflict-engine.md
       - ADR-0032 Backup Restore Data Safety: adr/ADR-0032-backup-restore-data-safety.md
+      - ADR-0033 Caching Performance Layer: adr/ADR-0033-caching-performance-layer.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

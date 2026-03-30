@@ -136,6 +136,9 @@ nav:
       - Approval Lifecycle: operations/approval-lifecycle.md
   - API:
       - Overview: api/overview.md
+      - API Versioning: api/versioning.md
+      - API Error Model: api/error-model.md
+      - API Deprecation Policy: api/deprecation-policy.md
       - Authentication API: api/authentication.md
       - Media API: api/media.md
       - Jobs API: api/jobs.md
@@ -151,6 +154,7 @@ nav:
   - Releases:
       - Release Notes: releases/index.md
   - Development:
+      - Onboarding Guide: development/onboarding.md
       - Versioning Strategy: development/versioning.md
   - Legal:
       - Licensing: legal/licensing.md
@@ -191,6 +195,7 @@ nav:
       - ADR-0033 Caching Performance Layer: adr/ADR-0033-caching-performance-layer.md
       - ADR-0034 Query Optimization Index Strategy: adr/ADR-0034-query-optimization-index-strategy.md
       - ADR-0035 Load Testing Stability Validation: adr/ADR-0035-load-testing-stability-validation.md
+      - ADR-0036 API Versioning Contract Hardening: adr/ADR-0036-api-versioning-contract-hardening.md
   - Design:
       - Branding: design/branding.md
       - UX Principles: design/ux-principles.md

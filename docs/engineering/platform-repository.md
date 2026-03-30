@@ -12,6 +12,7 @@ The `infralynx-platform` repository is a buildable monorepo foundation designed 
 - `packages/auth` for identity, session, and authorization scaffolds
 - `packages/audit` for audit record contracts
 - `packages/cache-core` for Redis-backed caching abstractions, TTL policies, and invalidation helpers
+- `packages/db-performance` for pagination standards, query review metadata, and index strategy helpers
 - `packages/media-core` for media metadata, validation, linking, and access-control helpers
 - `packages/media-storage` for filesystem and future cloud-backed object storage adapters
 - `packages/event-core` for explicit integration event records
@@ -158,6 +159,16 @@ Backup and restore behavior is split across three ownership areas:
 - `apps/worker/src/jobs` for asynchronous scheduled backup execution
 
 This keeps data-safety flows centralized and prevents restore logic from leaking into domain packages.
+
+## Query And Index Strategy Layer
+
+Database performance planning is split across three ownership areas:
+
+- `packages/db-performance` for pagination standards, critical query reviews, explain-plan guidance, and index definitions
+- `migrations/postgres`, `migrations/mssql`, and `migrations/mariadb` for engine-specific index migrations
+- `apps/api/src/inventory` and `apps/api/src/index.ts` for applying shared pagination and deterministic sort behavior on active read surfaces
+
+This keeps performance rules explicit before the persistent database adapters land and avoids scattering query semantics across unrelated packages.
 
 ## Import And Export Layer
 

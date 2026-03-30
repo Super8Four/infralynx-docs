@@ -48,6 +48,12 @@ The platform now also includes a centralized caching layer:
 - API-owned scoped cache keys and short TTL profiles
 - explicit invalidation on successful write paths
 
+The platform now also includes a database-performance planning layer:
+
+- shared pagination and query review contracts in `@infralynx/db-performance`
+- engine-specific index migration baselines for PostgreSQL, MSSQL, and MariaDB
+- explain-plan guidance aligned to each supported engine
+
 The networking package is now split into two distinct concerns:
 
 - cross-domain binding contracts

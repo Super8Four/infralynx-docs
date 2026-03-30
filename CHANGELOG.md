@@ -2,6 +2,21 @@
 
 All notable changes to this repository will be documented in this file.
 
+## [v0.10.0-alpha]
+
+### Added
+- Indexing strategy, query standards, DB engine performance notes, and ADR-0034 documentation.
+
+### Changed
+- Updated the documentation release baseline to `v0.10.0-alpha`.
+- Expanded architecture and operations guidance to cover deterministic pagination, explain-plan validation, and cross-engine index planning.
+
+### Fixed
+- Clarified how InfraLynx performance tuning is staged before the persistent database adapters land.
+
+### Removed
+- None.
+
 ## [v0.9.0-alpha]
 
 ### Added
